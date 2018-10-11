@@ -21,6 +21,7 @@ RUN set -ex \
     && apt-get update \
     && apt-get install -y \
                curl \
+               netcat \
                apt-transport-https \
                --no-install-recommends \
     \
